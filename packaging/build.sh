@@ -12,7 +12,7 @@ pushd build
 mkdir -p usr/bin
 mkdir -p etc
 
-# Build bowse
+# Build bowser
 go build ../../cmd/bowser/bowser.go
 go build ../../cmd/bowser-create-account/bowser-create-account.go
 
